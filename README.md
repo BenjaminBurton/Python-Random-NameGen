@@ -2,22 +2,26 @@
 
 ## EC2 Random Name Generator
 
-This is my project for graduation! I made a Python script to make random names for EC2 instances in AWS. It’s for a shared AWS thing where departments need unique names so people know who owns what.
+This is my project for graduation! I made a Python script to make random names.
 
 ## What It Does
 
-- **Advanced**: Only works for Marketing, Accounting, or FinOps depts. If you type something else, it says "nope". Works with big or small letters.
+- The script uses a for loop to iterate based on the user’s input.
 
 ## Files
 
-- `advanced_ec2_names.py` - Checks depts
+- `randNameGen.py`
 
 ## How to Run
 
-1. SSH into your EC2 (I used Amazon Linux 2), but for sake of time this will be in terminal
-2. Run them with `python3 filename.py`
-3. Type how many names and the dept when it asks
+1. Run them with `python3 filename.py`
+2. Type a number to get back a random number of names back
 
 ## Example
 
-If I run `python3 complex_ec2_names.py`:
+If I run `randNameGen.py`:
+
+- Pick a number and see what random names come up? 3
+- Name 1: emma
+- Name 2: noah
+- Name 3: sophia
