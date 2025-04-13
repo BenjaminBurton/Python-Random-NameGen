@@ -1,6 +1,6 @@
 # Python-Random-NameGen
 
-## EC2 Random Name Generator
+## Random Name Generator
 
 This is my project for graduation! I made a Python script to make random names.
 
